@@ -2,6 +2,7 @@ import { Page, Locator } from '@playwright/test';
 
 export class GooglePage {
     readonly page: Page;
+    readonly page: Page2;
     readonly searchBox: Locator;
 
     constructor(page: Page) {
